@@ -1,14 +1,21 @@
-# Velt-comment
-Comment box 
+# Velt Comment
 
-open terminal:
+A simple comment box application integrated with Velt.
+
+---
+
+## 📦 Installation
+
+Open your terminal and run:
+
+```bash
 npm install
 npm start
 
 
-Start webhook server (optional in separate terminal):
+
+🪝 Optional: Start Webhook Server
+
+Run this in a separate terminal:
 
 npm run start:server
-
-
-Open http://localhost:3000
