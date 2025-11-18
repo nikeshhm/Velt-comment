@@ -1,0 +1,7 @@
+.container { position: relative; }
+.inputBox { display:flex; gap:8px; align-items:center; }
+.input { flex:1; padding:10px 12px; border-radius:8px; border:1px solid #e6e9ef; background:#fafbff; }
+.send { background:#0b5cff; color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+.dropdown { position:absolute; left:0; top:54px; background:white; border:1px solid #e6e9ef; border-radius:8px; box-shadow:0 6px 20px rgba(15,20,40,0.06); width:320px; max-height:200px; overflow:auto; z-index:40; }
+.item { padding:8px 12px; cursor:pointer; }
+.itemActive { padding:8px 12px; cursor:pointer; background:#eef2ff; }

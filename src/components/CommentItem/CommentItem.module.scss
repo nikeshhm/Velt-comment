@@ -1,0 +1,19 @@
+/* duplicate kept in case consumer imports separately */ 
+.item {
+  display:flex;
+  gap:12px;
+  padding:12px 0;
+  border-bottom:1px solid #f1f3f5;
+}
+.left { width:44px; flex:0 0 44px; }
+.avatar {
+  width:40px; height:40px; border-radius:20px; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-weight:700; color:#0b3cff;
+}
+.body { flex:1; }
+.meta { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+.name { font-weight:700; }
+.time { color:#6b7280; font-size:12px; }
+.text { white-space:pre-wrap; }
+.replyBadge { background:#f1f5f9; padding:2px 6px; border-radius:4px; margin-right:8px; font-size:12px; color:#374151; }
+.actions { margin-top:8px; }
+.replyBtn { background:transparent; border:none; color:#2563eb; cursor:pointer; font-size:13px; padding:4px 8px; }
